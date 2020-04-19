@@ -5,5 +5,3 @@
 ![GitHub stars](https://img.shields.io/github/stars/MaoLongLong/LeetCode-Cpp?style=social)
 
 🚀🚀🚀
-
-![image-20200419203444696](C:\Users\MaoLongLong\.leetcode\images\image-20200419203444696.png)
