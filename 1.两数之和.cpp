@@ -12,8 +12,9 @@ class Solution {
         vector<int> ret(2);
         map<int, int> m;
         for (int i = 0; i < nums.size(); ++i) {
-            if (m.find(target - nums[i]) != m.end()) {
-                ret[0] = m[target - nums[i]];
+            auto f = m.find(target - nums[i]);
+            if (f != m.end()) {
+                ret[0] = f->second;
                 ret[1] = i;
                 return ret;
             }
