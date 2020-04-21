@@ -18,7 +18,7 @@ class Solution {
         // else
         //     return firstMatch && isMatch(s.substr(1), p.substr(1));
 
-        // 正则标准库 436ms
+        // 正则标准库 436ms 搞不懂为什么这么慢。。。
         // regex e("^" + p + "$");
         // if (regex_match(s, e))
         //     return true;
