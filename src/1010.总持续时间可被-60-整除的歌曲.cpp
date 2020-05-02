@@ -7,14 +7,16 @@
 using namespace std;
 // @lc code=start
 class Solution {
-public:
+   public:
     int numPairsDivisibleBy60(vector<int>& time) {
         vector<int> cnt(60);
         int res = 0;
         for (int t : time) {
             t %= 60;
-            if (t) res += cnt[60 - t];
-            else res += cnt[t];
+            if (t)
+                res += cnt[60 - t];
+            else
+                res += cnt[t];
             ++cnt[t];
         }
         return res;
